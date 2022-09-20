@@ -44,7 +44,4 @@ public class AeropuertoPublico extends Aeropuerto {
     public String toString() {
         return super.toString() + " ---> La financiación de parte del estado es {" + "Financiacion=" + Financiacion + ", NumTrabajadoresDiscapacitados=" + NumTrabajadoresDiscapacitados + '}';
     }
-    
-    
-    
 }

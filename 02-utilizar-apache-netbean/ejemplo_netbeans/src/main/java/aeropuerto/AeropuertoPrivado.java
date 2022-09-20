@@ -32,7 +32,4 @@ public class AeropuertoPrivado extends Aeropuerto {
     public String toString() {
         return super.toString() + " ---> Es Privado y tiene {" + "numSocios=" + numSocios + '}';
     }
-    
-    
-    
 }

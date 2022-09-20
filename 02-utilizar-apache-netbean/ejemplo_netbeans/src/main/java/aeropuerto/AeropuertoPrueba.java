@@ -42,8 +42,6 @@ public class AeropuertoPrueba {
         
         System.out.println(a3.toString());
         
-        
-        
     }
     
 }
