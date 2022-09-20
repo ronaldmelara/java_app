@@ -42,7 +42,7 @@ public class AeropuertoPublico extends Aeropuerto {
 
     @Override
     public String toString() {
-        return "AeropuertoPublico{" + "Financiacion=" + Financiacion + ", NumTrabajadoresDiscapacitados=" + NumTrabajadoresDiscapacitados + '}';
+        return super.toString() + " ---> La financiación de parte del estado es {" + "Financiacion=" + Financiacion + ", NumTrabajadoresDiscapacitados=" + NumTrabajadoresDiscapacitados + '}';
     }
     
     

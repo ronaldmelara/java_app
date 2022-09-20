@@ -29,7 +29,9 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
 
     @Override
     public String toString() {
-        return "Aeropuerto id #" + this.id  +"{" + "nombre=" + nombre + ", direccion=" + this.direccion + ", anioInauguracion=" + anioInauguracion + ", capacidad=" + capacidad + " personas. \n Cuentas con los siguientes aviones:\n " + mostrarAviones() + "  \n}";
+        return "Aeropuerto id #" + this.id  +"{" + "nombre=" + nombre + ", direccion=" + this.direccion + ", anioInauguracion=" + anioInauguracion + ", capacidad=" + 
+                capacidad + " personas. \n Cuentas con los siguientes aviones:\n " + 
+                mostrarAviones() + "  \n}";
     }
 
     public void setDireccion(Direccion direccion) {

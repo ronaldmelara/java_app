@@ -33,16 +33,17 @@ public class AeropuertoPrueba {
         }
         
         switch(a.compareTo(a2)){
-            case 1: 
-                System.out.println("a > a2");
-                break;
-            case 0:
-                System.out.println("Son iguales");
-                break;
-            case -1:
-                System.out.println("a es < a2");
-                break;
+            case 1 -> System.out.println("a > a2");
+            case 0 -> System.out.println("Son iguales");
+            case -1 -> System.out.println("a es < a2");
         }
+        
+        AeropuertoPrivado a3 = new AeropuertoPrivado(30, "Puerto Tobalaba", "Chile", "Avenida Tobalaba ", 3440, "Santiago", 1990, 1500);
+        
+        System.out.println(a3.toString());
+        
+        
+        
     }
     
 }

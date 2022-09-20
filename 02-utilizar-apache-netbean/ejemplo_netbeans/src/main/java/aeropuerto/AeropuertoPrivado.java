@@ -30,7 +30,7 @@ public class AeropuertoPrivado extends Aeropuerto {
 
     @Override
     public String toString() {
-        return "AeropuertoPrivado{" + "numSocios=" + numSocios + '}';
+        return super.toString() + " ---> Es Privado y tiene {" + "numSocios=" + numSocios + '}';
     }
     
     
