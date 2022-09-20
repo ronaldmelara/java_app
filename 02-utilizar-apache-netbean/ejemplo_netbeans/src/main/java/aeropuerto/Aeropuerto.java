@@ -10,7 +10,7 @@ import java.util.Calendar;
  *
  * @author melaragalaz
  */
-public class Aeropuerto implements Comparable<Aeropuerto>{
+public abstract class Aeropuerto implements Comparable<Aeropuerto>{
 
     @Override
     public boolean equals(Object obj) {
@@ -133,4 +133,6 @@ public class Aeropuerto implements Comparable<Aeropuerto>{
         }
  
     }
+    
+    public abstract void gananciaTotal(double cantidad);
 }

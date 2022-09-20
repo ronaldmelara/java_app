@@ -32,4 +32,12 @@ public class AeropuertoPrivado extends Aeropuerto {
     public String toString() {
         return super.toString() + " ---> Es Privado y tiene {" + "numSocios=" + numSocios + '}';
     }
+
+    @Override
+    public void gananciaTotal(double cantidad) {
+        double ganancia = cantidad / this.numSocios;
+        System.out.println("La ganancia por socio es " + ganancia);
+    }
+    
+
 }
