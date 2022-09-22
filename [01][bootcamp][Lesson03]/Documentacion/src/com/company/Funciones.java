@@ -8,7 +8,7 @@ public class Funciones {
         HolaMundo("Ronald");
     }
 
-    private static void HolaMundo() {
+    public static void HolaMundo() {
         System.out.println("Hola Mundo desde un metodo");
     }
 
