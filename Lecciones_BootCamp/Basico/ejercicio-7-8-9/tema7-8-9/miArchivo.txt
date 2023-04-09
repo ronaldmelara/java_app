@@ -1,0 +1,13 @@
+Lista de nombres ingresados:
+Ronald
+Enrique
+Docky
+Lulu
+Facundo
+Lista de Frutas:
+ID: 1 -----> Nombre: Frutilla
+ID: 2 -----> Nombre: Cereza
+ID: 3 -----> Nombre: Pera
+ID: 4 -----> Nombre: Sandia
+ID: 26 -----> Nombre: Platano
+ID: 15 -----> Nombre: Melon Tuna

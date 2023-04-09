@@ -3,9 +3,11 @@ package com.example.obrestdatajpa.controller;
 import com.example.obrestdatajpa.entities.Book;
 import com.example.obrestdatajpa.repository.BookRepository;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class BookController {
@@ -37,7 +39,11 @@ public class BookController {
 
 
     //buscar un solo libreo en case de datos segun su id
-
+    @GetMapping("/api/books/{id}")
+    public Book getBookById(@PathVariable Long id){
+        Optional<Book> bookOut = bookRepository.findById(id);
+        return bookOut.orElse(null);
+    }
 
     //crear un nuevo libro en base de datos
 

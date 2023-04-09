@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 import java.time.LocalDate;
+import java.util.Optional;
 
 @SpringBootApplication
 public class ObRestDatajpaApplication {
@@ -32,9 +33,11 @@ public class ObRestDatajpaApplication {
 
 
 		//borrar un libro
-		repository.deleteById(1L);
-		System.out.println("numero de libros en BD: " + repository.findAll().size());
+		//repository.deleteById(1L);
+		//System.out.println("numero de libros en BD: " + repository.findAll().size());
 
+		Optional<Book> book3 = repository.findById(2L);
+		System.out.println(book3);
 	}
 
 }
